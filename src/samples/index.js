@@ -3,6 +3,16 @@ import Images from 'simput/src/samples/images';
 // prettier-ignore
 export default [
   {
+    label: 'DES3D',
+    image: Images.des3d,
+    description: 'Long-term tectonic simulation code, Dynamic Earth Solver in 3D',
+    acknowledgement: '',
+    model: {
+      type: 'des3d',
+      data: {},
+    },
+  },
+  {
     label: 'Oscillator',
     image: Images.oscillator,
     description: 'Oscillator source for In-Situ simulation',
